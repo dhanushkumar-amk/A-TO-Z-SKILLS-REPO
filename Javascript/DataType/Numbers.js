@@ -52,3 +52,8 @@ let f = -1 / 0;
 console.log(f); // -Infinity
 console.log(typeof f); // number
 
+
+// typeof operator
+// typeof operator is used to check the type of a variable.
+let value = 20;
+console.log(typeof value); // number
