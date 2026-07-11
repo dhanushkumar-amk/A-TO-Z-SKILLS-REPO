@@ -43,4 +43,20 @@ console.log(typeof largeNumber);
 
   
 
+// don'ts
+// let k = 10.05n; we can't add  float values to bigint
+// console.log(k)
+
+
+// can't do any arthmetic operation based on bigin and numbers
+let num1 = 100n;
+let num2 = 200n;
+console.log(num1 + num2)   // it will work
+
+
+let val1 = 100n;
+let val2 = 200;
+// console.log(val1 + val2)  // it will not work
+
+
 
